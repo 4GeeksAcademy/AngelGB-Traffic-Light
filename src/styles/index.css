@@ -1,4 +1,3 @@
-
 /* 
 
     You can write your own styles here...
@@ -10,3 +9,81 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+body {
+    background-image: url("https://png.pngtree.com/thumb_back/fw800/background/20230806/pngtree-white-city-road-with-tall-buildings-image_12985045.jpg");
+    background-size: cover;
+    background-position: left;
+    color: rgb(19, 1, 1);
+    text-shadow: 3px 3px 3px rgb(255, 255, 255);
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.semaforo {
+    margin: 0 auto;
+    border: solid 10px rgb(57, 55, 55);
+    background-color: black;
+    display: inline-block;
+}
+.rojofoco {
+    background-color: red;
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+    box-shadow:  0 0 70px red;
+}
+
+.rojo {
+    background-color: rgba(255, 0, 0, 0.150);
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+}
+
+.amarillofoco {
+    background-color: yellow;
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+    box-shadow:  0 0 70px yellow;
+}
+
+.amarillo {
+    background-color: rgba(255, 255, 0, 0.150);
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+}
+
+.verdefoco {
+    background-color: rgb(20, 195, 20);
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+    box-shadow:  0 0 70px green;
+}
+
+.verde {
+    background-color: rgba(0, 128, 0, 0.150);
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+}
+
+.extra {
+    background-color: rgba(255, 124, 1, 0.171);
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+    color: white;
+}
+.extrafoco {
+    background-color: rgb(255, 124, 1);
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+    color: white;
+    box-shadow:  0 0 70px orange;
+}
