@@ -46,6 +46,7 @@ const Home = () => {
 	const pararAutomatico = () => {
 		if (intervalo) {
 			clearInterval(intervalo);
+			setExtraColor("extra")
 			setIntervalo(null);
 		}
 	};
