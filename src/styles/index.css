@@ -9,6 +9,13 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+body {
+    background-image: url("https://png.pngtree.com/thumb_back/fw800/background/20230806/pngtree-white-city-road-with-tall-buildings-image_12985045.jpg");
+    background-size: cover;
+    background-position: left;
+    color: rgb(19, 1, 1);
+    text-shadow: 3px 3px 3px rgb(255, 255, 255);
+}
 .container {
     display: flex;
     justify-content: center;
@@ -25,10 +32,11 @@
     border-radius: 100%;
     width: 150px;
     height: 150px;
+    box-shadow:  0 0 70px red;
 }
 
 .rojo {
-    background-color: rgb(76, 74, 74);
+    background-color: rgba(255, 0, 0, 0.150);
     border-radius: 100%;
     width: 150px;
     height: 150px;
@@ -39,11 +47,11 @@
     border-radius: 100%;
     width: 150px;
     height: 150px;
-    box-shadow: 0 0 0 8px #dcdada;
+    box-shadow:  0 0 70px yellow;
 }
 
 .amarillo {
-    background-color: rgb(76, 74, 74);
+    background-color: rgba(255, 255, 0, 0.150);
     border-radius: 100%;
     width: 150px;
     height: 150px;
@@ -54,11 +62,28 @@
     border-radius: 100%;
     width: 150px;
     height: 150px;
+    box-shadow:  0 0 70px green;
 }
 
 .verde {
-    background-color: rgb(76, 74, 74);
+    background-color: rgba(0, 128, 0, 0.150);
     border-radius: 100%;
     width: 150px;
     height: 150px;
+}
+
+.extra {
+    background-color: rgba(255, 124, 1, 0.171);
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+    color: white;
+}
+.extrafoco {
+    background-color: rgb(255, 124, 1);
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+    color: white;
+    box-shadow:  0 0 70px orange;
 }
